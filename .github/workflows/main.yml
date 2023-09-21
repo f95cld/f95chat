@@ -47,6 +47,8 @@ jobs:
       uses: ilammy/msvc-dev-cmd@v1.12.1
     - name: Install Yarn
       run: yarn install
+    - name: Print current directory (Windows)
+      run: cd
     - name: Build For Windows
       id: build-windows
       run: |
