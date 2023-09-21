@@ -52,6 +52,9 @@ jobs:
       run: |
         yarn build:bundle
         yarn build:windows --publish never
+    - name: List Build Files (Debug)
+      run: |
+        dir D:\a\desktop\desktop\dist
     - name: Pack Build Files
       run: |
         mkdir D:\a\desktop\Revolt-windows
