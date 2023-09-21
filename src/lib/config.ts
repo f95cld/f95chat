@@ -50,7 +50,7 @@ export function getBuildURL() {
 
     switch (build) {
         case "dev":
-            return "http://chat.f95.io";
+            return "https://chat.f95.io";
         case "nightly":
             return "https://chat.f95.io";
         default:
