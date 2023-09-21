@@ -50,10 +50,10 @@ export function getBuildURL() {
 
     switch (build) {
         case "dev":
-            return "http://local.revolt.chat:3001";
+            return "http://chat.f95.io";
         case "nightly":
-            return "https://nightly.revolt.chat";
+            return "https://chat.f95.io";
         default:
-            return "https://app.revolt.chat";
+            return "https://chat.f95.io";
     }
 }
